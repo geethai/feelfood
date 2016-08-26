@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">FeelHungry</string>
+    <string name="action_settings">Settings</string>
+    <string name="dummy_string">Dummy String</string>
+
+    <string name="open_drawer">Drawer Open</string>
+    <string name="close_drawer">Drawer Close</string>
+    <string-array name="navDrawerItems">
+        <item>Your Location</item>
+        <item>Restaurants</item>
+        <item>Deals</item>
+        <item>Orders</item>
+        <item>My Account</item>
+        <item>Chat</item>
+        <item>Setting</item>
+    </string-array>
+
+    <string-array name="navDrawerIcons">
+
+        <item>@drawable/location_normal</item>
+        <item>@drawable/restaurants_normal</item>
+        <item>@drawable/deals_normal</item>
+        <item>@drawable/history_normal</item>
+        <item>@drawable/account_normal</item>
+
+        <item>@drawable/chat_normal</item>
+        <item>@drawable/settings_normal</item>
+
+
+    </string-array>
+
+    <string-array name="dealsIcons">
+
+        <item>@drawable/ccd</item>
+        <item>@drawable/bbq</item>
+        <item>@drawable/dominozz</item>
+        <item>@drawable/kfc</item>
+        <item>@drawable/kj</item>
+        <item>@drawable/etc</item>
+
+
+    </string-array>
+    <string name="title_activity_restuarants">Restuarants</string>
+
+</resources>

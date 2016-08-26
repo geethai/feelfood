@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.smartmobion.feelhungry">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:name=".app.AppController"
+        android:allowBackup="true"
+        android:icon="@drawable/app_logo"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".SpashActivity"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".BaseActivity"
+            android:label="@string/app_name" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".HomeActivity" />
+        <activity android:name=".Item1Activity" />
+        <activity android:name=".Item2Activity" />
+        <activity android:name=".Item3Activity" />
+        <activity android:name=".Item4Activity" />
+        <activity android:name=".Item5Activity" />
+        <activity android:name=".RestuarantListActivity" />
+        <activity
+            android:name=".Restuarants"
+            android:label="@string/title_activity_restuarants"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.smartmobion.feelhungry.MainActivity" />
+        </activity>
+    </application>
+
+</manifest>

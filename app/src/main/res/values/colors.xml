@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="statusBarColor">#4169E1</color>
+
+    <color name="toolBarColor">#4682B4</color>
+
+    <color name="grey">#3C3C3C</color>
+    <color name="yellow">#A8975B</color>
+    <color name="blue">#3D7397</color>
+    <color name="darkblue">#024769</color>
+    <color name="lightgrey">#585858</color>
+    <color name="lightergrey">#474747</color>
+    <color name="brightergrey">#999999</color>
+    <color name="ash">#AAAAAA</color>
+    <color name="white">#FFFFFF</color>
+    <color name="greamwhite">#FAFAFA</color>
+    <color name="lightwhite">#F2F2F2</color>
+
+    <!-- For Custom List view-->
+    <color name="genre">#666666</color>
+    <color name="year">#888888</color>
+    <color name="list_divider">#d9d9d9</color>
+    <color name="list_row_start_color">#ffffff</color>
+    <color name="list_row_end_color">#ffffff</color>
+    <color name="list_row_hover_start_color">#ebeef0</color>
+    <color name="list_row_hover_end_color">#ebeef0</color>
+
+
+</resources>
